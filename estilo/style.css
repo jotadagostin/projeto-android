@@ -31,6 +31,9 @@
 body {
     background-color: var(--cor0);
     font-family: var(--font-padrao);
+    background-image: url('/imagens/Android-Pattern-ipad.jpg');
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 a.externo::after {
