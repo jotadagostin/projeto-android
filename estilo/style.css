@@ -34,6 +34,7 @@ body {
     background-image: url('../imagens/Android-Pattern-ipad.jpg');
     background-position: center center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 a.externo::after {
@@ -63,12 +64,12 @@ header > p {
     font-family: var(--font-padrao);
     font-size: 1.2em;
     color: white;
-    max-width:500px;
+    max-width:600px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267) ;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315) ;
 
 }
 
@@ -110,6 +111,7 @@ main p {
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
+    
 }
 
 main strong {
@@ -134,6 +136,7 @@ main a:hover {
 
 main img {
     width: 100%;
+    
    }
 
 main img.pequena {
